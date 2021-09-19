@@ -1,0 +1,39 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.left > input {
+  margin: 0 10px;
+  padding: 3px 5px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  outline: none;
+}
+.icon {
+  cursor: pointer;
+}
+
+.center {
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.right > span {
+  margin: 0 10px;
+  cursor: pointer;
+}
